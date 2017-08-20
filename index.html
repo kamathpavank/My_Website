@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+
+<div class="container" id="main">
+<!--Whole navbar-->
+		<div class="navbar navbar-fixed-top">
+<!--container for NAVBAR-->
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" ><img src="images/logo.png" alt="Your logo"></a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Web Designing</a> </li>
+								<li><a href="#">Web Development</a> </li>
+								<li><a href="#"> SQL</a> </li>
+								<li class="divider"></li>
+								<li class="dropdown-header">More Services </li>
+                <li><a href="#">App development</a> </li>
+								<li><a href="#">Social Marketing</a> </li>
+
+
+							</ul>
+						</li>
+					</ul><!--end of nv-->
+					<form class="navbar-form pull-left">
+						<input type="text" class="form-control" placeholder="Search" id="searchInput"></input>
+						<button typr="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</form>
+					<ul class="nav navbar-nav pull-right">
+						<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account<span class="caret"></span>
+								<ul class="dropdown-menu">
+									<li><a href="#"><span class="glyphicon glyphicon-info-sign"></span>Profile</a> </li>
+									<li><a href="#"><span class="glyphicon glyphicon-list-alt"></span>Courses</a> </li>
+									<li><a href="#"><span class="glyphicon glyphicon-tasks"></span>Projects</a> </li>
+									<li class="divider"></li>
+	                <li><a href="#"><span class="glyphicon glyphicon-cog"></span>Settings</a> </li>
+									<li><a href="#"><span class="glyphicon glyphicon-off"></span>Logout</a> </li>
+								</ul>
+
+						</li>
+					</ul>
+				</div><!--end navcollapse-->
+			</div><!--container-->
+		</div><!--end navbar-->
+
+		<div class="carousel slide" id="myCarousel">
+			<!--Indicators-->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+
+			</ol>
+
+
+			<!--wrapper for slides-->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4>Bootstrap 3</h4>
+						<p>Learn how to build responsive website with Twitter Bootstrap</p>
+					</div><!--end carousel-caption-->
+				</div><!--end item-->
+
+				<div class="item " id="slide2">
+					<div class="carousel-caption">
+						<h4>Learn to code website in 4 hours!</h4>
+						<p>Learn HTML5 and CSS3 </p>
+					</div><!--end carousel-caption-->
+				</div><!--end item-->
+				<div class="item " id="slide2">
+					<div class="carousel-caption">
+						<h4>Web Hositng</h4>
+						<p>Learn how to buy a perfect domain and hosting package</p>
+					</div><!--end carousel-caption-->
+				</div><!--end item-->
+
+			</div><!--Carouselinner-->
+      <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+		</div><!--end carousel-->
+
+		<div class="row" id="bigCallOut">
+				<div class="col-12">
+
+					<!--visible only on small devices-->
+					<div class="well well-small visible-sm">
+							<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>Give us a Call</a>
+					</div>
+					<div class="well">
+						<div class="page-header">
+							<h1>Header<small>Small header</small></h1>
+						</div>
+						<p class ="lead">Solid Lead class different then normal text</p>
+						<a href="" class="btn btn-large btn-primary">Click</a>
+						<a href="" class="btn btn-large btn-link">Secondary link</a>
+					</div>
+				</idv>
+		</div><!--end bigCallOut-->
+		<div class="row" id="featuresHeading">
+
+		</div><!--end featuresgHeading-->
+			<div class="col-12">
+				<h2>More Features</h2>
+				<p class ="lead">Programs must be written for people to read, and only incidentally for machines to execute.</p>
+			</div>
+		<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Markup with HTML5</h3>
+						</div><!--end panel heading-->
+						<img src="images/badge_html5.jpg" class="img-circle" alt="HTML5">
+						<p>HTML is the standard markup language for creating Web pages.
+
+</p>
+						<a href="" class="btn btn-large btn-primary">Click to Learn HTML5</a>
+					</div><!--end panel -->
+				</div><!--end feature-->
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Style with CSS3</h3>
+						</div><!--end panel heading-->
+						<img src="images/badge_css3.jpg" class="img-circle" alt="CSS3">
+						<p>CSS is used for designing HTML page
+
+				</p>
+						<a href="" class="btn btn-large btn-primary">Click to Learn CSS3</a>
+					</div><!--end panel -->
+				</div><!--end feature-->
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Framework By Bootstrap 3</h3>
+						</div><!--end panel heading-->
+						<img src="images/badge_bootstrap.jpg" class="img-circle" alt="HTML5">
+						<p>Amazing framework
+
+				</p>
+						<a href="" class="btn btn-large btn-primary">Click to Learn Bootstrap</a>
+					</div><!--end panel -->
+				</div><!--end feature-->
+
+		</div><!--end features-->
+
+		<div class="row" id="moreinfo">
+			<div class="col-sm-6">
+				<h3>Neat Tabbable Content</h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+						<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<h4><span class="glyphicon glyphicon-map-marker">Our Location <small>More Like Our favourite surf spot</small></h4>
+
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60189.397186335744!2d72.76991761766268!3d19.46257933788809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7aa23dce7efbf%3A0x99bd87871748d8f4!2sVirar%2C+Maharashtra%2C+India!5e0!3m2!1sen!2sfr!4v1503048311680"
+								width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+							<p>Illustrator elements key. Mac don't let your dreams be dreams fun.
+									Sketch Wes Sass. Class jpg Hooli.
+									JQuery syntactically awesome method. Hypertext Drew prepend. People Mac application.
+									Photoshop don't let your dreams be dreams people. Append Mac Pied Piper.
+									 Hooli object JavaScript.</p>
+									 <p>
+Pied Piper console paragraph. Class jpg let's go surfin' now everybody's learnin' how.
+ Drew value span. JQuery Silicon Valley application. Sketch alumni argument.
+  Paragraph application paragraph. Team lab T-Swift. HTML5 Nat object.
+ Script png prepend. Header key photoshop.
+									 </p>
+						</div><!--end tab1 -->
+						<div class="tab-pane" id="tab2">
+							<h4>A Left Floated Picture<small>Using Placehold.it</small></h4>
+
+							<img src="http://placehold.it/140" class="thumbnail pull-left">
+							<p>My favourite tag was blink lab Kristen. Framer salad club Ryan. Sketch jpg cascade.
+								Div syntactically awesome DOM. Back-end preprocessor sick scrolling marquee. Gulp object fixed-width. Script CSS3 join.
+								Join application friends. Pied Piper join toggle. Fixed-width coffee png.</p>
+
+							<p>Christopher software cool. Back-end span div. I'll refactor you fun salad club.
+								Png Drew Hooli. Photoshop div photoshop. Prepend let's go surfin' now everybody's learnin' how Uncle Drew. Christopher Sketch span.
+								 Animate T-Swift header. Wes index back-end. Uncle Drew CSS3 Mac.</p>
+
+								 <hr>
+								 <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>click for a Modal window</a>
+
+								 <div class="modal fade" id="myModal">
+									 <div class="modal-dialog">
+										 <div class="modal-content">
+											 <div class="modal-header">
+												 <button class="close" data-dismiss="modal">&times;</button>
+												 <h4 class="modal-title">A Modal Window</h4>
+											 </div><!-- end of modal-header -->
+											 <div class="modal-body">
+												 <h4>Welcome to Modal</h4>
+												 <p>Please add javascript magic to it</p>
+
+												 <h4>Popovers in a modal</h4>
+												 <a href="" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it!" data-content="I knew you would">Dont Click</a>
+
+												 <h4>Toolpits in a modal</h4>
+												 <a href="" data-original-title="Tooltiip-bro" rel="tooltip">This link</a>should have a toolpit , and so should <a href="" data-original-title="Kadak-bachiii!" rel="tooltip">This one</a>
+
+												 <hr>
+
+												 <p><small class="text-muted">PS. This form doesn't do anything.So add PHP to give some action</small></p>
+												 <form class="form-horizontal" action="index.html">
+
+													 <div class="form-group">
+														 <label class="col-lg-2 control-label" for="inputName">Name</label>
+													 	<div class="col-lg-10">
+													 		<input type="text" name="" placeholder="Name" class="form-control" id="inputName">
+													 	</div>
+													 </div>
+
+													 <div class="form-group">
+														 <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+													 	<div class="col-lg-10">
+													 		<input type="email" name="" placeholder="Email" class="form-control" id="inputEmail">
+													 	</div>
+													 </div>
+
+													 <div class="form-group">
+													 	<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+													  <div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="8" ></textarea>
+															<button type="submit" class="btn btn-success pull-right" name="button">Send</button>
+													  </div>
+
+													</div><!-- end form-group-->
+
+												 </form>
+											 </div><!--end modal-body -->
+											 <div class="modal-footer">
+												 <button type="button" name="button" class="btn btn-default" data-dismiss="modal">Close </button>
+												 <button type="button" name="button" class="btn btn-primary">Save changes</button>
+											 </div><!-- wnd modal-footer -->
+										 </div><!-- end of modal-content -->
+									 </div><!-- modal dialog -->
+							 </div><!---end my modal -->
+						</div><!--end tab -->
+					</div><!-- end tab-content -->
+				</div><!--end tabbable -->
+			</div><!-- end col-sm-6 -->
+			<div class="col-sm-6">
+				<h3>Some TExt Info</h3>
+				<p>Gif rad sublime. Animate party section. Mac prepend semantic.
+					HTML5 alumni Gulp. CSS3 HTML5 HTML5. Wes Haris Silicon Valley. Together DOM alert.
+					 Span Haris code. Key variable join. Sass Sketch salad club.</p>
+
+					 <h4>A List Group</h4>
+
+					 <div class="list-group">
+						 <a href="#" class="list-group-item">
+					 		<h4 class="list-group-item-heading">Kale</h4>
+							<p class="list-group-item-text">Info about Kale</p>
+							</a>
+
+							<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Carrot</h4>
+							<p class="list-group-item-text">Info about Carrot</p>
+							</a>
+
+							<a href="#" class="list-group-item">
+ 					 		<h4 class="list-group-item-heading">Bread</h4>
+ 							<p class="list-group-item-text">Info about Bread</p>
+							</a>
+
+							<a href="#" class="list-group-item">
+ 					 		<h4 class="list-group-item-heading">Janu</h4>
+ 							<p class="list-group-item-text">Info about Janu</p>
+							</a>
+					 </div><!--list group-->
+					 <h5>Choota heading</h5>
+					 <p>Div Ryan key. Span array team. Div team alert. Toggle paragraph Christopher. Inspector Haris DOM. Give yourself an auto high-five argument Gulp.
+						 Gif Mac raptorize it.
+						 Fixed-width sick scrolling marquee id. Paragraph people Sass. Footer index friends.</p>
+			</div><!-- end col-sm-6 -->
+		</div><!--end moreinfo-->
+		<hr>
+		<div class="row" id="morecourses">
+			<div class="col-12"><!--Thumbnail -->
+				<h3>Learn more about WEb Design</h3>
+				<div class="thumbnails row">
+					<div class="col-6">
+						<div class="thumbnail">
+							<img src="images/item_webhosting101.jpg" alt="WEB HST">
+							<div class="label label-success price">
+							<span class="glyphicon glyphicon-tag"></span>
+							<sup>$</sup>39
+							</div>
+							<div class="caption">
+								<h3>Web Hostin 101</h3>
+								<p>Learn how to host website</p>
+
+								<p><a href="" class="btn btn-primary btn-small">Take course</a><a href="#" class="btn btn-small btn-link">Learn more</a></p>
+							</div>
+						</div>
+					</div><!--end col-6 -->
+
+					<div class="col-6">
+						<div class="thumbnail">
+							<img src="images/item_psd2html5.jpg" alt="WEB HST">
+							<div class="label label-info price">
+							<span class="glyphicon glyphicon-tag"></span>
+							Free
+							</div>
+							<div class="caption">
+								<h3>PSD to HTML5 &amp; CSS3</h3>
+								<p>Learn how to PSD to HTML5 &amp; CSS3</p>
+								<p><a href="" class="btn btn-primary btn-small">Take course</a><a href="#" class="btn btn-small btn-link">Learn more</a></p>
+							</div>
+						</div>
+					</div><!--end col-6 -->
+				</div>
+			</div>
+		</div><!--end morecourses-->
+
+
+
+ </div><!--end container-->
+<footer>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-2">
+			<h6>Copyright &copy; 2013 Pavan</h6>
+		</div><!-- col-sm-2 -->
+		<div class="col-sm-4">
+			<h6>About Us</h6>
+			<p></p>
+		</div><!-- col-sm-4 -->
+		<div class="col-sm-2">
+			<h6>Navigation</h6>
+			<ul class="unstyled">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Links</a></li>
+				<li><a href="#">Contacts</a></li>
+			</ul>
+		</div><!-- col-sm-2 -->
+		<div class="col-sm-2">
+			<h6>Follow Us</h6>
+			<ul class="unstyled">
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">Google</a>+</li>
+				<li><a href="#">IN</a></li>
+			</ul>
+		</div><!-- col-sm-2 -->
+		<div class="col-sm-2">
+			<h6>Code with <span class="glyphicon glyphicon-heart"></span>By Pavan</h6>
+		</div>
+	</div>
+</div>
+</footer>
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
